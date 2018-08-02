@@ -23,7 +23,7 @@ type AlarmTrigger struct {
 	Period                           int              `json:"period"`
 	EvaluationPeriods                int              `json:"EvaluationPeriods"`
 	ComparisonOperator               string           `json:"ComparisonOperator"`
-	Threshold                        int              `json:"Threshold"`
+	Threshold                        float64          `json:"Threshold"`
 	TreatMissingData                 string           `json:"TreatMissingData"`
 	EvaluateLowSampleCountPercentile string           `json:"EvaluateLowSampleCountPercentile"`
 }
